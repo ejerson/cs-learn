@@ -4,6 +4,7 @@ public class LearnBinaryTree {
   
   // ma ctrl + space
   public static void main(String[] args) {
+//    EACH NUMBER REPRESENTS A NODE
     Node a = new Node(10);
     a.insert(5);
     a.insert(8);
@@ -64,6 +65,7 @@ class Node {
   }
   
   public void printInOrder() {
+  
     if (left != null) {
       left.printInOrder();
     }
