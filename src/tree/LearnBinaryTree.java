@@ -13,7 +13,6 @@ public class LearnBinaryTree {
 //    System.out.println(a.right.right.right.data);
     a.printInOrder();
   }
-
 }
 
 
@@ -65,7 +64,8 @@ class Node {
   }
   
   public void printInOrder() {
-  
+    
+    // 1. 
     if (left != null) {
       left.printInOrder();
     }
